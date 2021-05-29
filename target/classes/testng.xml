@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="FbTestSuite">
+  <test thread-count="5" name="RegressionTest" parallel="methods">
+    <classes>
+      <class name="com.fb.testCases.LoginPageTest"/>
+      <class name="com.fb.testCases.HomePageTest"/>
+    </classes>
+  </test> <!-- RegressionTest -->
+</suite> <!-- FbTestSuite -->
